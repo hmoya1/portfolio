@@ -1,0 +1,128 @@
+/* This is my CSS for my homepage */ 
+/*Font used for the ENTIRE website */
+@font-face{
+    font-family:'Font2';
+    src: url('../Fonts/Font2.ttf') format('truetype');
+}
+/* Small devices like phones */
+@media only screen and (max-width: 600px){
+    .grid-container{
+        display: grid;
+        grid-row-gap: 1.2rem;
+        grid-column-gap: 1.2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: #E8A495;
+        font-family: 'Font2';
+        text-align: center;
+        opacity: 0.8;
+        padding: 0rem;
+        color: black;
+    }
+    h1{
+        font-size: 5rem;
+        margin: 0rem;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 3rem;
+        margin: 0.2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color: yellow;
+        opacity: 0.8rem;
+        text-decoration: none;
+    }
+    a:visited{
+        background-color: #E09E90;
+        opacity: 0.8rem;
+        text-decoration: none;
+    }
+    body{
+        background-image: url("../Images/background1.jpg");
+        background-repeat: repeat;
+        
+        background-size: 100%;
+    }
+    .header{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+        flex-wrap: wrap;
+    }
+    .nav{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+  
+        flex-wrap: wrap;
+    }
+    .info1{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 4;
+ 
+        flex-wrap: wrap;
+    }
+    .info2{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+        flex-wrap: wrap;
+    }
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
