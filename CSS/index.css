@@ -43,7 +43,7 @@
         background-color: #FFC2B5;
         opacity: 0.8rem;
         text-decoration: none;
-        font-size: 2.2rem;
+        font-size: 2.4rem;
         box-shadow: .1rem .1rem white, .2rem .2rem black;
     }
     .nav h2:visited{
@@ -62,33 +62,66 @@
         height: 5rem;
     }
     .footer img{
-        width: 6.9rem;
-        height: 5.5rem;
+        width: 6.7rem;
+        height: 5.1rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
     }
     .header{
         grid-column-start: 3;
         grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
-
         flex-wrap: wrap;
+        height: 5rem;
     }
-
+    .facts{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul{
+        padding:1rem;
+        list-style-position: inside;
+    }
+    .hobbies{
+        float:right; 
+    }
+    .dreamjobs{
+        float: left;
+    }
+    .info1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .info1 a:hover{
+        color: pink;
+        text-shadow: .1rem .1rem black, .1rem .1rem white;
+    }
+    .info2 h2:hover{
+        color: #E6AFA4;
+        text-shadow: .1rem .1rem white, .1rem .1rem black;
+    }
     .nav{
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 4;
-  
         flex-wrap: wrap;
+        height: 33.6rem;
+        padding-top: .8rem;
+        align-content: space-around;
     }
     .info1{
         grid-column-start: 3;
         grid-column-end: 6;
         grid-row-start: 2;
         grid-row-end: 4;
- 
         flex-wrap: wrap;
+        text-shadow: .1rem .1rem white, .1rem .1rem black;
+        height: 26rem;
+        padding:.8rem;
+        position: relative;
+        top: -19rem;
     }
     .info1 img{
         width:15rem;
@@ -100,16 +133,20 @@
         grid-column-end: 6;
         grid-row-start: 4;
         grid-row-end: 5;
-
         flex-wrap: wrap;
+        padding-top: 1rem;
+        position: relative;
+        top: -41rem;
     }
     .footer{
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 5;
         grid-row-end: 6;
-
         flex-wrap: wrap;
+        height: 7rem;
+        position: relative;
+        top: -40rem; 
     }
 
 
