@@ -1,4 +1,4 @@
-/* This is my CSS for my pastjobs */ 
+/* This is my CSS for my skills */ 
 /*Font used for the ENTIRE website */
 @font-face{
     font-family:'Font2';
@@ -65,7 +65,7 @@
         text-decoration: none;
     }
     body{
-        background-image: url("../Images/background7.jpg");
+        background-image: url("../Images/background4.jpg");
         background-repeat: repeat;
         
         background-size: 100%;
@@ -170,5 +170,3 @@
         position: relative;
         top: -50.2rem;
     }
-
-    
