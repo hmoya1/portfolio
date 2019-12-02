@@ -65,7 +65,7 @@
         text-decoration: none;
     }
     body{
-        background-image: url("../Images/background4.jpg");
+        background-image: url("../Images/background2.jpg");
         background-repeat: repeat;
         
         background-size: 100%;
@@ -113,7 +113,12 @@
     }
     .info2 h2:hover{
         color: #E6AFA4;
+    }
+    .info1 h2{
         text-shadow: .1rem .1rem white, .1rem .1rem black;
+    }
+    .info1 h2:hover{
+        color: #E6AFA4;
     }
     iframe{
         width:15rem;
@@ -144,9 +149,14 @@
     }
     
     .info1 img{
-        width:15rem;
+        width:13rem;
         height: 10rem;
-        box-shadow:.1rem .1rem white, .2rem .2rem black;
+
+    }
+    .info2 img{
+        width:17rem;
+        height: 15rem;
+
     }
     
     .info2{
@@ -157,7 +167,7 @@
         flex-wrap: wrap;
         padding-top: 1rem;
         position: relative;
-        height: 35rem;
+        height: 120rem;
         top: -50.5rem;
     }
     .footer{
