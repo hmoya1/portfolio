@@ -142,10 +142,10 @@
         grid-row-end: 4;
         flex-wrap: wrap;
         text-shadow: .1rem .1rem white, .1rem .1rem black;
-        height: 52rem;
+        height: 87rem;
         padding:.8rem;
         position: relative;
-        top: -31rem;
+        top: -96rem;
     }
     
     .info1 img{
@@ -167,8 +167,8 @@
         flex-wrap: wrap;
         padding-top: 1rem;
         position: relative;
-        height: 120rem;
-        top: -50.5rem;
+        height: 100rem;
+        top: -210.5rem;
     }
     .footer{
         grid-column-start: 1;
@@ -178,5 +178,5 @@
         flex-wrap: wrap;
         height: 7rem;
         position: relative;
-        top: -50.2rem;
+        top: -210.5rem;
     }
