@@ -1,4 +1,4 @@
-/* This is my CSS for my skills */ 
+/* This is my CSS for my resume */ 
 /*Font used for the ENTIRE website */
 @font-face{
     font-family:'Font2';
@@ -65,7 +65,7 @@
         text-decoration: none;
     }
     body{
-        background-image: url("../Images/background10.jpg");
+        background-image: url("../Images/background9.jpg");
         background-repeat: repeat;
         
         background-size: 100%;
@@ -142,7 +142,7 @@
         grid-row-end: 4;
         flex-wrap: wrap;
         text-shadow: .1rem .1rem white, .1rem .1rem black;
-        height: 87rem;
+        height: 103rem;
         padding:.8rem;
         position: relative;
         top: -96rem;
@@ -156,7 +156,7 @@
     .info2 img{
         width:17rem;
         height: 15rem;
-        box-shadow: .3rem .3rem white, .4rem .4rem black;
+
     }
     
     .info2{
@@ -168,7 +168,7 @@
         padding-top: 1rem;
         position: relative;
         height: 100rem;
-        top: -210.5rem;
+        top: -194.5rem;
     }
     .footer{
         grid-column-start: 1;
@@ -178,5 +178,5 @@
         flex-wrap: wrap;
         height: 7rem;
         position: relative;
-        top: -210.5rem;
+        top: -194.5rem;
     }
