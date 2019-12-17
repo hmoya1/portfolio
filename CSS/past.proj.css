@@ -293,7 +293,7 @@
         height: 34rem;
         padding:.8rem;
         position:relative;
-        top: -300px;
+        top: -240px;
     }
     .info1 h2{
         text-shadow: .1rem .1rem white, .2rem .2rem black;
@@ -323,7 +323,7 @@
         flex-wrap: wrap;
         padding-top: 1rem;
         position: relative;
-        top: -510px;
+        top: -360px;
     }
     .footer{
         grid-column-start: 1;
@@ -333,7 +333,7 @@
         flex-wrap: wrap;
         height: 7rem;
         position: relative;
-        top: -500px;
+        top: -345px;
     }
 }
 
@@ -459,7 +459,7 @@
         height: 34rem;
         padding:.8rem;
         position:relative;
-        top: -300px;
+        top: -230px;
     }
     .info1 h2{
         text-shadow: .1rem .1rem white, .2rem .2rem black;
@@ -489,7 +489,7 @@
         flex-wrap: wrap;
         padding-top: 1rem;
         position: relative;
-        top: -510px;
+        top: -350px;
     }
     .footer{
         grid-column-start: 1;
@@ -499,7 +499,7 @@
         flex-wrap: wrap;
         height: 7rem;
         position: relative;
-        top: -500px;
+        top: -335px;
     }
 }
 
